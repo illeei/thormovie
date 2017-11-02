@@ -4,23 +4,26 @@
     <title>Thor:Ragnarok | Coming Soon</title>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Titillium+Web">
     <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css" />
   </head>
   <body>
     <header>
-  	   <nav>
-         <ul id="navlist">
-           <li><a href=#trailer>Trailer</a></li>
-           <li><a href=#cast>Cast</a></li>
-           <li><a href=#>Photos</a></li>
-           <li><a href=#>Videos</a></li>
-           <li><a href=#>More Marvel</a></li>
-         </ul>
-       </nav>
+         <a class="hamburger" id="menu">&#9776;</a>
+         <nav id="menuItems" class="menuItems">
+           <div class="menu">
+           <ul id="navlist">
+             <li><a href=#trailer>Trailer</a></li>
+             <li><a href=#cast>Cast</a></li>
+             <li><a href=#photos>Photos</a></li>
+             <li><a href="http://marvel.com/movies/all" target="_blank">More Marvel Movies</a></li>
+           </ul>
+           </div>
+         </nav>
     </header>
     <div class="hero">
       <img src="assets/landingpage.jpg" alt="Thor: Ragnarok">
     </div>
-    <section class="getTickets">
+    <section class="buttonContainer">
       <a class="btn" href="https://www.fandango.com/thor-ragnarok-2017-199155/movie-times" target="_blank">Get Tickets</a>
     </section>
     <section class="trailer" id="trailer">
@@ -33,56 +36,104 @@
       <p>MAIN CAST</p>
       <div class="castPhotos">
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm1165110/?ref_=nv_sr_1" target="_blank">
           <img src="assets/chrisH.jpg" alt="Chris Hemsworh">
           <p>Thor - Chris Hemsworth</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm0252961/?ref_=nv_sr_1" target="_blank">
           <img src="assets/idrisE.jpg" alt="Idris Elba">
           <p>Heimdall - Idris Elba</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm0000949/?ref_=nv_sr_1" target="_blank">
           <img src="assets/cateB.jpg" alt="Cate Blanchett">
           <p>Hela - Cate Blanchett</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm1089991/?ref_=nv_sr_1" target="_blank">
           <img src="assets/tomH.jpg" alt="Tom Hiddleston">
           <p>Loki - Tom Hiddleston</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm0829032/?ref_=fn_al_nm_11" target="_blank">
           <img src="assets/rayS.jpg" alt="Ray Stevenson">
           <p>Volstagg - Ray Stevenson</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm0038355/?ref_=nv_sr_1" target="_blank">
           <img src="assets/tadA.jpg" alt="Tadanobu Asano">
           <p>Hogun - Tadanobu Asano</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm0000317/?ref_=nv_sr_2" target="_blank">
           <img src="assets/clancyB.jpg" alt="Clancy Brown">
           <p>Surtur - Clancy Brown</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm1344302/?ref_=nv_sr_1" target="_blank">
           <img src="assets/rachelH.jpg" alt="Rachel House">
           <p>Topaz - Rachel House</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm0169806/?ref_=nv_sr_1" target="_blank">
           <img src="assets/taikaW.jpg" alt="Taika Waititi">
           <p>Korg - Taika Waititi</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm1212722/?ref_=nv_sr_1" target="_blank">
           <img src="assets/benedictC.jpg" alt="Benedict Cumberbatch">
           <p>Doctor Strange - Benedict Cumberbatch</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm0000164/?ref_=nv_sr_2" target="_blank">
           <img src="assets/anthonyH.jpg" alt="Anthony Hopkins">
           <p>Odin - Anthony Hopkins</p>
+          </a>
         </div>
         <div class="actor">
+          <a href="http://www.imdb.com/name/nm0749263/?ref_=nv_sr_1" target="_blank">
           <img src="assets/markR.jpg" alt="Mark Ruffalo">
           <p>Bruce Banner / Hulk - Mark Ruffalo</p>
+          </a>
         </div>
       </div>
-      <a href="http://www.imdb.com/title/tt3501632/" target="_blank">See full cast list >></a>
+      <div class="buttonContainer">
+        <a class="castButton" href="http://www.imdb.com/title/tt3501632/" target="_blank">See full cast list</a>
+      </div>
     </section>
-  <script type="text/javascript" src="scripts/index.js"></script>
+    <section class="photos" id="photos">
+      <p>PHOTOS</p>
+      <div class="images">
+        <a data-fancybox="gallery" href="assets/bts/1.jpg"><img class="thumbnail" src="assets/bts/1.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/2.jpg"><img class="thumbnail" src="assets/bts/2.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/3.jpg"><img class="thumbnail" src="assets/bts/3.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/4.jpg"><img class="thumbnail" src="assets/bts/4.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/5.jpg"><img class="thumbnail" src="assets/bts/5.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/6.jpg"><img class="thumbnail" src="assets/bts/6.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/7.jpg"><img class="thumbnail" src="assets/bts/7.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/8.jpg"><img class="thumbnail" src="assets/bts/8.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/9.jpg"><img class="thumbnail" src="assets/bts/9.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/10.jpg"><img class="thumbnail" src="assets/bts/10.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/11.jpg"><img class="thumbnail" src="assets/bts/11.jpg"></a>
+        <a data-fancybox="gallery" href="assets/bts/12.jpg"><img class="thumbnail" src="assets/bts/12.jpg"></a>
+      </div>
+    </section>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
   </body>
+  <footer>
+    <p>&copy Marvel 2017 | All rights reserved.</p>
+  </footer>
 </html>
